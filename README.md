@@ -15,7 +15,7 @@ If you have any suggestions, advice, questions or remarks, do not hesitate!
 - Remove a product from the list
 
 ### Installation
-1) Get the projet with ```git clone https://github.com/dimitridumont/hexagonal-architecture```
+1) Get the projet with ```git clone https://github.com/dimitridumont/hexagonal-architecture-react```
 2) Install dependancies with ```yarn install```
 3) Start the React application with ```yarn start```
 
