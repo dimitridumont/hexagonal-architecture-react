@@ -1,0 +1,21 @@
+@import "../../assets/variables";
+
+.products-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  &.empty {
+    text-align: center;
+  }
+
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 22px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    //box-shadow: $boxShadow;
+  }
+}
