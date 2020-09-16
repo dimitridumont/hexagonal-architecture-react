@@ -2,6 +2,7 @@ import React, {useEffect} from "react"
 import {useDispatch, useSelector} from "react-redux"
 
 import {GetProducts} from "../../domain/use-cases"
+import {ProductRepository} from "../../infrastructure"
 import {ProductsListView} from "../views/productsList"
 
 export const ProductsListController = () => {
@@ -10,7 +11,8 @@ export const ProductsListController = () => {
     const {products} = useSelector(({productReducer}) => productReducer)
 
     useEffect(() => {
-        const getProducts = new GetProducts()
+        const productRepository = new ProductRepository()
+        const getProducts = new GetProducts(productRepository)
         dispatch(getProducts.execute())
     }, [])
 
