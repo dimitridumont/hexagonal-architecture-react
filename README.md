@@ -5,6 +5,8 @@ A simple project to use hexagonal architecture in a front-end project (React wit
 Data is retrieved from an API
 If you have any suggestions, advice, questions or remarks, do not hesitate!
 
+I wrote an article (in French and in English) to explain hexagonal architecture in front-end: https://www.dimitri-dumont.fr/blog/en/hexagonal-architecture-front-end
+
 ## Project 
 ### Features implemented:
 - Retrieve a shopping list with its products
